@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+results.json
+data/synthetic_futures_1h.csv
+.DS_Store
