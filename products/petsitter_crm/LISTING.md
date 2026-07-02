@@ -1,4 +1,4 @@
-# Etsy Listing — Pet Sitter Client CRM Spreadsheet ($12 launch)
+# Etsy Listing — Pet Sitter Client CRM Spreadsheet ($34 list, 30% launch sale -> ~$24)
 
 ## Title (≤140 chars, keyword-front-loaded)
 
@@ -87,7 +87,7 @@ me with any problem and I will make it right.
 
 1. **Hero / thumbnail** — Dashboard tab screenshot on a laptop + phone mockup,
    sage-green background. Overlay text: "Pet Sitter Client CRM — Google Sheets
-   + Excel". Price badge "$12". (This is the search-results image: must read
+   + Excel". Badge: "ONE-TIME PURCHASE / no subscription" (price-free). (This is the search-results image: must read
    at 250px wide.)
 2. **"Fields the free apps don't have"** — zoomed Clients tab crop showing
    Door/Gate Code, Alarm Instructions, Key Location, Vet Clinic columns, with
@@ -105,8 +105,8 @@ me with any problem and I will make it right.
 
 ## Launch Notes
 
-- Price: **$12** (launch). Anchor with a ~$16 "compare at" via a 25% opening
-  sale if desired.
+- Price: **$34** list. Run a 30% launch sale (Shop Manager -> Marketing -> Sales and discounts) so buyers see ~$34~ $23.80. Keep or end the sale after the first 5-10 reviews.
+  Value anchor for the description: software alternatives cost $25-29/MONTH.
 - Category: Digital download > Templates > Spreadsheet.
 - Same build script re-skins for Dog Groomer CRM and Cleaning Business CRM —
   edit `CONFIG` in `build.py` (colors, vocab, fields, services, samples).
