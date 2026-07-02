@@ -117,10 +117,30 @@ matter more than the ideas did:
 compounding channel, not a fast one — viable as listings you add once you have
 income elsewhere, not as the path to the first $1,000.
 
-The unvalidated leftovers (breeder tracker, reseller fee tracker, Claude Skills
-packs on Gumroad) inherit the same doubts. Validate before building — the
-"Same-Day Bank Statement Converter" looked verified and died on inspection
-(a 2-hour-delivery gig already existed; QuickBooks now imports PDFs natively).
+### Etsy portfolio — final validation results (all four niches checked)
+
+A dedicated validation pass on the remaining Etsy candidates produced the
+project's first BUILD verdicts. The Etsy shop is a GO, played as a portfolio:
+
+| Product | Verdict | Launch price | Evidence |
+|---|---|---|---|
+| Pet sitter / dog walker CRM sheet | **BUILD** | $10–15 | Buyers provably purchase this exact product (incumbent listings with ~96–130 favorites and glowing reviews); only ~2 serious competitors; no free software tier (alternatives cost $25–29/mo) |
+| Dog groomer CRM sheet | **BUILD** | $10–15 | Only 2–3 dedicated sheets exist; groomers demonstrably buy templates (4.8★/69-review and 4.9★/50-review comparables); MoeGo costs $49+/mo with no free tier |
+| Cleaning business CRM sheet | MAYBE (lean) | $10–15 | Concept validated by multiple sellers + 2026 entrants, but heaviest free-substitute pressure (Jobber freebies); win on trade-specific fields |
+| Dog breeder litter tracker | MAYBE (lean) | ~$9 | Verified verbatim buyer complaint; thin Sheets supply; but free template covers weight charts — wedge is auto-dated vaccine/deworming + deposit tracker |
+| Mobile detailer CRM | cheap experiment | $10 | Near-zero supply but unproven demand — category creation risk |
+| UGC creator tracker | **SKIP** | — | $4.49 incumbent with 4 yrs of reviews ≈ $650/yr market; free trackers flood TikTok/Notion; clone wave arrived |
+| Reseller profit tracker | **SKIP** | — | 2026-dated competitors already exist (one from an established brand, 3 weeks old); Poshmark/Mercari fee reversals un-staled the incumbents |
+| Nail tech / house painter CRMs | **SKIP** | — | Fresha is free for client records; zero demand signal for painter CRMs |
+
+Every listing must lead with trade-specific fields free generic tools lack
+(pet/door-code profiles, coat-and-cut history, recurring clean schedules) —
+Square Appointments and Fresha cover *generic* client tracking free.
+
+**Expectations:** a new shop sits in Etsy's 60–90-day search-testing period
+(median first sale 30–90 days). Etsy is the compounding side of the business,
+funded by the Fiverr/Upwork sprint — think $1,000 over 3–6 months from 6–9
+listings, not 60 days.
 
 ---
 
