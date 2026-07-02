@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 500px; height: 500px; overflow: hidden; }
+  body {
+    background: #5C7A5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+  <!-- Stylized spreadsheet grid (2x2) with a leaf in the top-right cell.
+       Thick strokes so it reads at 32px. Circular safe area respected. -->
+  <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- outer rounded grid frame -->
+    <rect x="14" y="14" width="272" height="272" rx="40" stroke="#F4ECD6" stroke-width="26"/>
+    <!-- grid dividers -->
+    <line x1="150" y1="27" x2="150" y2="273" stroke="#F4ECD6" stroke-width="24"/>
+    <line x1="27" y1="150" x2="273" y2="150" stroke="#F4ECD6" stroke-width="24"/>
+    <!-- leaf filling the top-right cell -->
+    <path d="M 174 126 Q 174 66 234 66 Q 234 126 174 126 Z" fill="#F4ECD6"/>
+    <!-- checkmark in the bottom-left cell -->
+    <path d="M 66 210 L 92 236 L 134 180" stroke="#F4ECD6" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </svg>
+</body>
+</html>

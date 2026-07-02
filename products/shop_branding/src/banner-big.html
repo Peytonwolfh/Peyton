@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 3360px; height: 840px; overflow: hidden; }
+  body {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    background: #5C7A5E;
+    position: relative;
+  }
+  /* subtle spreadsheet-grid motif */
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(244,236,214,0.07) 3px, transparent 3px),
+      linear-gradient(90deg, rgba(244,236,214,0.07) 3px, transparent 3px);
+    background-size: 210px 210px;
+    background-position: -3px -3px;
+  }
+  /* soft vignette to focus center */
+  .vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 70% 120% at 50% 50%, rgba(92,122,94,0) 40%, rgba(74,100,76,0.55) 100%);
+  }
+  .content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 44px;
+    padding-bottom: 8px;
+  }
+  .lockup {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  }
+  h1 {
+    color: #FFFFFF;
+    font-size: 168px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+  }
+  h1 .accent { color: #F4ECD6; }
+  .tagline {
+    color: #DCE8DC;
+    font-size: 62px;
+    font-weight: 400;
+    letter-spacing: 6px;
+  }
+  .chips {
+    display: flex;
+    gap: 36px;
+    margin-top: 18px;
+  }
+  .chip {
+    background: rgba(46,52,54,0.55);
+    border: 3px solid rgba(244,236,214,0.35);
+    color: #F4ECD6;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 20px 52px;
+    border-radius: 999px;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="vignette"></div>
+  <div class="content">
+    <div class="lockup">
+      <!-- logo mark, scaled -->
+      <svg width="220" height="220" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="14" y="14" width="272" height="272" rx="40" stroke="#F4ECD6" stroke-width="26"/>
+        <line x1="150" y1="27" x2="150" y2="273" stroke="#F4ECD6" stroke-width="24"/>
+        <line x1="27" y1="150" x2="273" y2="150" stroke="#F4ECD6" stroke-width="24"/>
+        <path d="M 174 126 Q 174 66 234 66 Q 234 126 174 126 Z" fill="#F4ECD6"/>
+        <path d="M 66 210 L 92 236 L 134 180" stroke="#F4ECD6" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <h1>TidySheet<span class="accent">Studio</span>Finds</h1>
+    </div>
+    <div class="tagline">Smart spreadsheets for small service businesses</div>
+    <div class="chips">
+      <div class="chip">Clients</div>
+      <div class="chip">Visits</div>
+      <div class="chip">Invoices</div>
+      <div class="chip">Dashboard</div>
+    </div>
+  </div>
+</body>
+</html>

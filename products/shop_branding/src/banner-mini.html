@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1600px; height: 213px; overflow: hidden; }
+  body {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    background: #5C7A5E;
+    position: relative;
+  }
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(244,236,214,0.07) 2px, transparent 2px),
+      linear-gradient(90deg, rgba(244,236,214,0.07) 2px, transparent 2px);
+    background-size: 106px 106px;
+    background-position: -2px -2px;
+  }
+  .content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  h1 {
+    color: #FFFFFF;
+    font-size: 74px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  h1 .accent { color: #F4ECD6; }
+  .divider {
+    width: 3px;
+    height: 84px;
+    background: rgba(244,236,214,0.4);
+  }
+  .tagline {
+    color: #DCE8DC;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    max-width: 560px;
+    line-height: 1.35;
+  }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="content">
+    <svg width="96" height="96" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="14" y="14" width="272" height="272" rx="40" stroke="#F4ECD6" stroke-width="26"/>
+      <line x1="150" y1="27" x2="150" y2="273" stroke="#F4ECD6" stroke-width="24"/>
+      <line x1="27" y1="150" x2="273" y2="150" stroke="#F4ECD6" stroke-width="24"/>
+      <path d="M 174 126 Q 174 66 234 66 Q 234 126 174 126 Z" fill="#F4ECD6"/>
+      <path d="M 66 210 L 92 236 L 134 180" stroke="#F4ECD6" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <h1>TidySheet<span class="accent">Studio</span>Finds</h1>
+    <div class="divider"></div>
+    <div class="tagline">Smart spreadsheets for<br>small service businesses</div>
+  </div>
+</body>
+</html>
