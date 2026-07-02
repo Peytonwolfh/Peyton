@@ -9,10 +9,16 @@ traces to a URL an agent actually saw.*
 
 ## TL;DR
 
-**The fastest evidence-backed path to a first $1,000 is selling small automation
-services on Upwork (n8n/Make.com builds, Google Sheets/Apps Script, web scraping,
-AI API integrations) with Claude Code doing the heavy lifting — paired with one or
-two low-effort Etsy digital products as side bets.**
+**The validated winner is the "Claude for Small Business Setup Sprint" — a
+productized service (Fiverr gig + Upwork bids) installing and configuring Claude
+for non-technical small businesses, with ~70% of the deliverable built once and
+2–3 hours of labor per sale. Full plan: `EXECUTION-BRIEF.md`. The n8n/Make
+Workflow Fixer on Upwork is the pre-planned day-21 pivot if orders don't come.**
+
+Every pure build-once product idea — including both Etsy templates — was killed
+in validation (details in Part 2). No semi-automated product path survived at
+the 60-day / first-$1,000 bar; the Sprint is the closest thing the evidence
+supports: marketplace distribution, reusable assets, low marginal labor.
 
 Not a glamorous answer. But it was the *only* opportunity out of 12 that survived
 adversarial validation, and it survived because it dodges the three things that
@@ -88,35 +94,33 @@ fixed-price posts; never open with your bio; 3–5 proposals/day.
 
 ---
 
-## Part 2 — Side Bets: Etsy Digital Products (build once, sell while you bid)
+## Part 2 — The Etsy Product Ideas: Validated and Killed
 
-These are **unvalidated** (the skeptical validators hit a usage limit before
-checking them) — treat as small, timed bets, not the plan. Each is a weekend
-build with Claude Code and rides a real, observed supply gap:
+The completed validation pass rejected both Etsy candidates. The kill reasons
+matter more than the ideas did:
 
-1. **2026–27 Teacher Gradebook + Assignment Tracker bundle ($19)** — back-to-school
-   search spike starts *now* (July); incumbents have 900+ reviews but are undated;
-   only two fresh 2026-27-dated listings observed, both with few reviews.
-   **Most time-sensitive — if you build one, build this one first.**
-2. **Start-anytime ADHD budget sheet ($12–18)** — 6,000-review PDF incumbent proves
-   the buyer pool; spreadsheet supply is young; documented complaints ("hard to
-   start mid-year", learning curve) are directly answerable with formulas.
-3. **Dog breeder litter/whelping tracker ($10–20)** — supply is printable PDFs;
-   an observed reviewer complaint asks for exactly the fillable version.
-4. **Reseller cross-listing profit tracker with July-2026-accurate fees ($10–25)** —
-   top incumbents hardcode 2020–2022 fee math; "updated fees" is the whole pitch.
+1. **2026–27 Teacher Gradebook bundle — SKIP.** The "thin dated supply" read was
+   a snapshot taken days before the annual re-date wave: a 2026-27 gradebook
+   already exists on Etsy and TPT, incumbents demonstrably re-date their
+   high-review listings every July, and the category's 900+-review leader is
+   *undated* — proving reviews beat year-in-title. Fatal channel math: Etsy's
+   60–90-day search-testing period for new shops plus 30–90-day median
+   time-to-first-sale consumes the entire back-to-school window.
+2. **Start-anytime ADHD budget sheet — SKIP.** A Star Seller with a 4.8-rated
+   "ADHD Friendly Budget Planner Google Sheets" already owns the exact keyword,
+   a 2026 clone wave is live, free templates anchor the segment at $0, real
+   prices are $1–14 (not $12–18), and $1,000 would need 77–125 sales from a
+   zero-review shop in 60 days.
 
-Also promising from the Gumroad scan (needs an audience, so slower): Claude
-Skills packs for unserved professions (lawyers, bookkeepers, real-estate agents,
-teachers) at $19–39 — a months-old niche that's flooding fast, mirroring the
-prompt-pack curve.
+**The general Etsy lesson:** the marketplace delivers files automatically, but a
+*new* shop gets no meaningful search traffic for 1–3 months. Etsy is a
+compounding channel, not a fast one — viable as listings you add once you have
+income elsewhere, not as the path to the first $1,000.
 
-**Warning from cycle 2's own validator:** side-bet reasoning is exactly where
-plausible-but-wrong ideas hide. The "Same-Day Bank Statement Converter" looked
-verified and died on inspection (a 2-hour-delivery gig already exists; QuickBooks
-now imports PDFs natively; free AI converters bracket the low end). Before
-building any Etsy product, spend 30 minutes searching Etsy for the exact thing
-and checking the newest listings' review velocity.
+The unvalidated leftovers (breeder tracker, reseller fee tracker, Claude Skills
+packs on Gumroad) inherit the same doubts. Validate before building — the
+"Same-Day Bank Statement Converter" looked verified and died on inspection
+(a 2-hour-delivery gig already existed; QuickBooks now imports PDFs natively).
 
 ---
 
@@ -189,11 +193,17 @@ pattern in what people pay YOU for is a better product signal than any scan.
 
 ---
 
-## Open Items
+## Final Scoreboard (all validations complete)
 
-- 4 cycle-2 ideas (GHL Snapshot Mechanic, ADHD Money Sheet, Claude Small-Business
-  Setup Sprint, Teacher Gradebook) never got their validation pass — the session
-  hit a usage limit (resets 6am UTC). Ask Claude Code to resume the workflow to
-  finish them; everything already done replays from cache.
-- The trading backtester in this repo remains a learning project, not an income
-  plan — its own README's caveats stand.
+12 ideas validated across two cycles. Survivors:
+
+- **Claude for Small Business Setup Sprint — MAYBE (the pick).** 7-week-old
+  niche (Anthropic's SMB launch, May 13 2026), ~24 competitors all keyword-spam
+  with no demo videos, verified buyer-initiated demand (live Upwork job posts +
+  paid orders on incumbent gigs). One honest unverified risk: search/order
+  velocity. Full execution plan in `EXECUTION-BRIEF.md`.
+- **n8n/Make Workflow Fixer (Upwork) — MAYBE (the day-21 pivot).** Strongest
+  demand evidence in the set (811 open jobs), but pure labor-for-money.
+
+Everything else: skip, with evidence. The trading backtester in this repo
+remains a learning project, not an income plan — its own README's caveats stand.
