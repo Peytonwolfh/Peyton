@@ -1,4 +1,4 @@
-# Etsy Listing — Pet Sitter Client CRM Spreadsheet ($24 list, 30% launch sale -> $16.80)
+# Etsy Listing — Pet Sitter Client CRM Spreadsheet ($35.70 list, 30% launch sale -> $24.99)
 
 ## Title (≤140 chars, keyword-front-loaded)
 
@@ -105,7 +105,10 @@ me with any problem and I will make it right.
 
 ## Launch Notes
 
-- Price: **$24** list. Run a 30% launch sale (Shop Manager -> Marketing -> Sales and discounts) so buyers see ~$24~ $16.80. End the sale after the first 5-10 reviews to sell at full $24.
+- Price: **$35.70** list. Run a 30% launch sale (Shop Manager -> Marketing -> Sales and discounts) so buyers see ~$35.70~ $24.99 — the buyer pays $24.99.
+  Note: $24.99 effective is the top of the validated price band for a zero-review
+  shop; if there are zero sales after ~3 weeks of decent views, drop the list
+  price to $24 (30% sale -> $16.80) before touching anything else.
   Value anchor for the description: software alternatives cost $25-29/MONTH.
 - Category: Digital download > Templates > Spreadsheet.
 - Same build script re-skins for Dog Groomer CRM and Cleaning Business CRM —
