@@ -132,3 +132,14 @@ me with any problem and I will make it right.
 - Built from the same parameterized generator as the Pet Sitter CRM — edit
   `CONFIG` in `build.py` (colors, vocab, fields, services, samples) to
   re-skin for the next vertical (cleaning business CRM).
+
+
+## BONUS FILE (added after launch research)
+
+- Upload `Use-It-Like-An-App-Guide.pdf` as a SECOND digital file on the listing
+  (Etsy allows up to 5). Buyers get both files instantly.
+- Add this line to the description under INSTANT DOWNLOAD:
+  "BONUS: 'Use it like an app' guide -- put your CRM one tap from your phone's
+  home screen with its own icon. No subscription, no extra app to buy."
+- Hero image v2 (current 01-hero.png) is the simplified thumbnail-first design;
+  previous version preserved in git history if ever needed.
