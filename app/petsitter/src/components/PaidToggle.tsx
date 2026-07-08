@@ -18,6 +18,14 @@ export default function PaidToggle({
   const [pending, start] = useTransition();
   const [optimistic, setOptimistic] = useState(paid);
 
+  // Re-sync with the server value when it changes (e.g. the list reorders
+  // after router.refresh() and this slot now shows a different visit).
+  const [prevKey, setPrevKey] = useState(`${id}:${paid}`);
+  if (prevKey !== `${id}:${paid}`) {
+    setPrevKey(`${id}:${paid}`);
+    setOptimistic(paid);
+  }
+
   function toggle(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();

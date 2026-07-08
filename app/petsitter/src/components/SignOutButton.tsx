@@ -24,7 +24,12 @@ export default function SignOutButton() {
       disabled={busy}
       aria-label="Sign out"
       title="Sign out"
-      style={{ background: "transparent", color: "var(--muted)", boxShadow: "none" }}
+      style={{
+        background: "transparent",
+        color: "var(--muted)",
+        boxShadow: "none",
+        border: "1.5px solid var(--border)",
+      }}
     >
       <LogoutIcon size={22} />
     </button>
